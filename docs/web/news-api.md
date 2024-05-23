@@ -22,19 +22,19 @@ The response is a JSON array of news objects. Below is an example of the returne
 [
     {
         "number": "1",
-        "path": "https://localhost:8080/exports/05-22-2024_21-11-38.json",
+        "path": "https://api.ifheroes.de/v1/news/exports/05-22-2024_21-11-38.json",
         "date": "22-05-2024",
         "file_id": "22052024091138"
     },
     {
         "number": "2",
-        "path": "https://localhost:8080/exports/05-22-2024_21-11-33.json",
+        "path": "https://api.ifheroes.de/v1/news/exports/05-22-2024_21-11-33.json",
         "date": "22-05-2024",
         "file_id": "22052024091133"
     },
     {
         "number": "3",
-        "path": "https://localhost:8080/exports/05-22-2024_21-11-29.json",
+        "path": "https://api.ifheroes.de/v1/news/exports/05-22-2024_21-11-29.json",
         "date": "22-05-2024",
         "file_id": "22052024091129"
     }
