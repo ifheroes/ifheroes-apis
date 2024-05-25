@@ -33,7 +33,7 @@ The response is a JSON array of news objects. Below is an example of the returne
         "number": "2",
         "path": "https://api.ifheroes.de/v1/news/exports/05-22-2024_21-11-33.json",
         "date": "22-05-2024",
-        "file_id": "22052024091133"
+        "file_id": "22052024091133",
         "title": "Test",
         "text": "This is a Test Text",
         "image": "https://media.ifheroes.de/2021-02-07_21.07.17.png"
@@ -42,7 +42,7 @@ The response is a JSON array of news objects. Below is an example of the returne
         "number": "3",
         "path": "https://api.ifheroes.de/v1/news/exports/05-22-2024_21-11-29.json",
         "date": "22-05-2024",
-        "file_id": "22052024091129"
+        "file_id": "22052024091129",
         "title": "Test",
         "text": "This is a Test Text",
         "image": "https://media.ifheroes.de/2021-02-07_21.07.17.png"
