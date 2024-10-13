@@ -10,6 +10,8 @@ The Player Data Management endpoint provides the latest player profiles for the 
 - **POST**: Creates or updates data at the endpoint.
 - **DELETE**: Removes data from the endpoint.
 
+
+
 ### API Levels
 
 | API-Level | Name                                                 |
@@ -17,6 +19,8 @@ The Player Data Management endpoint provides the latest player profiles for the 
 | 0         | Basic Data (UUID, ID, ...)                            |
 | 1         | Advanced (Language, etc...)                           |
 | 2         | Custom (Game Data in JSON Objects) - **Core Only**    |
+
+
 
 ## Schema for Player Profile in Player-Warehouse
 
