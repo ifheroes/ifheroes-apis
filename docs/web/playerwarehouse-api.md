@@ -1,12 +1,15 @@
-## News Endpoint (Work in progress)
+# Player-Warehouse (Work in progress)
 
-### Endpoint
+The playerdata Management endpoint provides the latest playerpprofiles for the Infinityheroes Minecraft server. This endpoint requires an API key and can´t be accessed publicly. The response is a JSON array containing playerdata items such as the name, UUID, language, gamemode data such as coins etc.
+
+
+## Get player profile - Endpoint
 
 `GET https://api.ifheroes.de/v1/warehouse`
 
 ### Description
 
-The playerdata Management endpoint provides the latest playerpprofiles for the Infinityheroes Minecraft server. This endpoint requires an API key and can´t be accessed publicly. The response is a JSON array containing playerdata items such as the name, UUID, language, gamemode data such as coins etc.
+Get the basic player profile with every information.
 
 ### Example Request
 
