@@ -101,6 +101,42 @@ curl -X GET "https://api.ifheroes.de/v1/warehouse/?uuid={UUID}" \
 
 This endpoint is useful for retrieving comprehensive player data from the Infinityheroes server. Developers can use this information to display profile details in their applications or websites.
 
+### Delete player profile
+
+`DELETE https://api.ifheroes.de/v1/warehouse/`
+
+#### Description
+
+Delete the complete player profile with all available information from the player warehouse.
+
+#### Example Request
+
+```sh
+curl -X DELETE "https://api.ifheroes.de/v1/warehouse/?delete={UUID}" \
+     -H "Authorization: Bearer YOUR_API_KEY"
+```
+
+#### Example Response
+
+**HTTP Status Code: 200**
+```json
+{
+  "success": "Profile deleted"
+}
+```
+
+**HTTP Status Code: 403**
+```json
+{
+  "error": "Needs to be a DELETE"
+}
+```
+
+#### Usage
+
+This endpoint is useful for deleting comprehensive player data from the Infinityheroes server. This function is only available for developers on our test systems. The production system delets player data with our core. https://github.com/ifheroes/core
+
+
 ### Post a New Player Profile
 
 `POST https://api.ifheroes.de/v1/warehouse/`
