@@ -51,6 +51,43 @@ The Player Data Management endpoint provides the latest player profiles for the 
 
 ## Endpoints
 
+### Check API-Key
+
+`GET https://api.ifheroes.de/v1/warehouse/?checkauth`
+
+#### Description
+
+Check if the API-Key is valid. 
+
+#### Example Request
+
+```sh
+curl -X GET "https://api.ifheroes.de/v1/warehouse/?checkauth" \
+     -H "Authorization: Bearer YOUR_API_KEY"
+```
+
+#### Example Response
+
+**HTTP Status Code: 200**
+```json
+{
+  "success": "API Key is valid!"
+}
+```
+
+**HTTP Status Code: 401**
+```json
+{
+  "error": "Unauthorized"
+}
+```
+
+
+#### Usage
+
+This endpoint is useful for retrieving comprehensive player data from the Infinityheroes server. Developers can use this information to display profile details in their applications or websites.
+
+
 ### Get Player Profile
 
 `GET https://api.ifheroes.de/v1/warehouse/`
